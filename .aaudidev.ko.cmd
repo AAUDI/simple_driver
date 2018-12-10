@@ -1,0 +1,1 @@
+cmd_/home/aaudi/Bureau/_driver_simple/aaudidev.ko := ld -r -m elf_x86_64 -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /home/aaudi/Bureau/_driver_simple/aaudidev.ko /home/aaudi/Bureau/_driver_simple/aaudidev.o /home/aaudi/Bureau/_driver_simple/aaudidev.mod.o ;  true
